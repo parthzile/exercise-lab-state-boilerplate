@@ -1,7 +1,7 @@
 import { Component } from 'react'
 import Image from './components/Image';
 import Data from "./components/Data";
-
+import Time from './components/Time';
 
 // you can even create a component with a class.
 
@@ -10,6 +10,7 @@ export default class App extends Component {
     return (
       <div>
     <header>
+      <Time />
       <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png" alt=""></img>
       <h3>Kalvium Education</h3>
     </header>
